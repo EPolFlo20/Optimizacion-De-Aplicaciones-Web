@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("../styles/SignUp.css");
+    </style>
+</head>
+<body>
+    <div class="form" id="myForm">
+        <form>
+            <h1 id="title">Registrarse</h1>
+            <input type="text" name="firstName" placeholder="Nombre" required>
+            <input type="text" name="lastName" placeholder="Apellido" required>
+            <input type="text" name="user" placeholder="Usuario" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="email" name="email" placeholder="Correo" required>
+            <button type="submit" id="signUp_button">Registrarse</button>
+            <button id="logIn_form"><a href="LogIn.html">Iniciar sesión</a></button>
+        </form>
+    </div>
+    <script type="module">
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            registrarUsuario();
+        })
+        
+        function registrarUsuario(){
+            console.log("Entro a la funcion")
+            const form = document.querySelector('form');
+            const data = {
+                firstName: form.elements.firstName.value,
+                lastName: form.elements.lastName.value,
+                user: form.elements.user.value,
+                password: form.elements.password.value,
+                email: form.elements.email.value
+            }
+            fetch('http://localhost/OAW/Optimizacion-De-Aplicaciones-Web/php/SignUp.php?signup', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    console.log(data.message);
+                } else {
+                    console.error(data.message);
+                }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+            
+    </script>
+</body>
+</html>

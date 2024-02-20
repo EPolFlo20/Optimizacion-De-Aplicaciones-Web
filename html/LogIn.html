@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("../styles/LogIn.css");
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form>
+            <h1>Iniciar sesión</h1>
+            <input type="text" name="user" placeholder="Usuario" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <button type="submit" id="logIn_button">Iniciar sesión</button>
+            <button id="signUp_form"><a href="SignUp.html">Registrarse</a></button>
+        </form>
+    </div>
+    <script>
+        document.querySelector('.form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            logIn();
+        })
+
+        function logIn(){
+            const form = document.querySelector('form');
+            const data = {
+                user: form.elements.user.value,
+                password: form.elements.password.value
+            }
+            fetch('http://localhost/OAW/Optimizacion-De-Aplicaciones-Web/php/LogIn.php?login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    console.log(data.message);
+                } else {
+                    console.error(data.message);
+                }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+</html>
