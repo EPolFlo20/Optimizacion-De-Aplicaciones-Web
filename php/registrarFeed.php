@@ -1,5 +1,7 @@
 <?php
 require_once 'databaseConnection.php';
+session_start();
+$id_usuario = $_SESSION["id_usuario"];
 
 // Verifica si se han recibido datos del formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -19,9 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Obtener el último ID insertado
         $ultimoID = $conexion->lastInsertId();
 
-        $sql2 = $conexion->prepare("INSERT INTO sitiosPorUsuario (id_sitio, id_usuario) VALUES (?, ?)");
-        $sql2->bindParam(1, $ultimoID);
-        $sql2->bindParam(2, $id_usuario);
+        $sql2 = $conexion->prepare("INSERT INTO sitiosporusuario (id_usuario, id_sitio) VALUES (?, ?)");
+        $sql2->bindParam(1, $id_usuario);
+        $sql2->bindParam(2, $ultimoID);
         $sql2->execute();
 
         $conexion->commit();
