@@ -3,10 +3,32 @@ if (empty($_SESSION["id_usuario"])) {
     header("location: ../html/Login.html");
 }
 
-$id_usuario = $_SESSION["id_usuario"];
+function readFromDB()
+{
+    require 'databaseConnection.php';
+    $id_usuario = $_SESSION["id_usuario"];
 
-function readFromDB(){
-    require '';
+    try {
+        $stmt = $conexion->prepare(
+            "SELECT url_sitio
+            FROM sitios s
+            JOIN sitiosporusuario su on su.id_sitio = s.id_sitio
+            WHERE su.id_usuario = $id_usuario
+            ;"
+        );
+        $stmt->execute();
+        $feeds = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if (!empty($feeds)) {
+            foreach($feeds as $urlFeed){
+                $url = $urlFeed['url_sitio'];
+                readRSS($url);
+            }
+        } else {
+            echo "<p>No se encontraron feeds para este usuario.</p>";
+        }
+    } catch (PDOException $e) {
+        echo "Error de consulta: " . $e->getMessage();
+    }
 }
 
 function readRSS($link)

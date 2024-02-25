@@ -62,7 +62,7 @@ require_once 'RSSLector.php';
         </div>
         <div id="noticias" class="container-fluid">
             <?php
-            readRSS('https://www.yucatan.com.mx/feed');
+            readFromDB();
             ?>
         </div>
         <!-- Formulario para agregar Feeds (oculto inicialmente) -->

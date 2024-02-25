@@ -23,13 +23,267 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 		
 		
 		
-	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"Diario de Yucatán";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:27:"https://www.yucatan.com.mx/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:35:"El periódico de la vida peninsular";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 04:24:02 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"es-MX";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"image";a:1:{i:0;a:6:{s:4:"data";s:11:"
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"Diario de Yucatán";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:27:"https://www.yucatan.com.mx/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:35:"El periódico de la vida peninsular";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 05:05:35 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"es-MX";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"image";a:1:{i:0;a:6:{s:4:"data";s:11:"
 	
 	
 	
 	
 	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:3:"url";a:1:{i:0;a:5:{s:4:"data";s:94:"https://newspack-yucatan.s3.amazonaws.com/uploads/2023/06/cropped-favicon-background-32x32.png";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"Diario de Yucatán";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:27:"https://www.yucatan.com.mx/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"width";a:1:{i:0;a:5:{s:4:"data";s:2:"32";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"height";a:1:{i:0;a:5:{s:4:"data";s:2:"32";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:60:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:3:"url";a:1:{i:0;a:5:{s:4:"data";s:94:"https://newspack-yucatan.s3.amazonaws.com/uploads/2023/06/cropped-favicon-background-32x32.png";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:18:"Diario de Yucatán";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:27:"https://www.yucatan.com.mx/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:5:"width";a:1:{i:0;a:5:{s:4:"data";s:2:"32";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"height";a:1:{i:0;a:5:{s:4:"data";s:2:"32";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:57:"
+		
+		
+		
+		
+		
+				
+		
+
+					
+										
+					
+		
+		
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Al fin entregan el cuerpo de Alexei Navalny a su madre";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:103:"https://www.yucatan.com.mx/mundo/2024/02/25/al-fin-entregan-el-cuerpo-de-alexei-navalny-a-su-madre.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 06:30:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:5:"Mundo";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"https://www.yucatan.com.mx/?p=1865229";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3377:"<figure><img width="1024" height="691" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=1024%2C691&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Un activista deposita flores en un cartel de Alexei Navalny frente a la embajada rusa en Chisinau, Moldavia" decoding="async" fetchpriority="high" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?w=1200&amp;ssl=1 1200w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=300%2C203&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=1024%2C691&amp;ssl=1 1024w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=768%2C518&amp;ssl=1 768w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=400%2C270&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=706%2C477&amp;ssl=1 706w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=1024%2C691&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1865168" data-permalink="https://www.yucatan.com.mx/?attachment_id=1865168" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=1200%2C810&amp;ssl=1" data-orig-size="1200,810" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;EFE&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Chisinau (Moldova, Republic Of), 24\/02\/2024.- A PAS Party Youth activist lays flowers at a placard depicting Russian opposition leader Alexei Navalny, in front of the Russian embassy to mark the second anniversary of the Russian invasion of Ukraine, in Chisinau, Moldova, 24 February 2024. Russian troops entered Ukrainian territory on 24 February 2022, starting a conflict that has provoked destruction and a humanitarian crisis. (Moldavia, Rusia, Ucrania) EFE\/EPA\/DUMITRU DORU&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;PAS Party Youth anti-War flashmob in Chisinau&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG-48665990" data-image-description="" data-image-caption="&lt;p&gt;Un activista  deposita flores en un cartel de Alexei Navalny frente a la embajada rusa  en Chisinau, Moldavia&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=300%2C203&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=780%2C526&amp;ssl=1" /></figure>
+<p>Tras una semana  recibe el cadáver la  mamá de Navalny </p>
+<p>Esta nota <a href="https://www.yucatan.com.mx/mundo/2024/02/25/al-fin-entregan-el-cuerpo-de-alexei-navalny-a-su-madre.html">Al fin entregan el cuerpo de Alexei Navalny a su madre</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Impreso";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:6744:"<figure><img width="1024" height="691" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=1024%2C691&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Un activista deposita flores en un cartel de Alexei Navalny frente a la embajada rusa en Chisinau, Moldavia" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?w=1200&amp;ssl=1 1200w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=300%2C203&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=1024%2C691&amp;ssl=1 1024w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=768%2C518&amp;ssl=1 768w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=400%2C270&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?resize=706%2C477&amp;ssl=1 706w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=1024%2C691&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1865168" data-permalink="https://www.yucatan.com.mx/?attachment_id=1865168" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=1200%2C810&amp;ssl=1" data-orig-size="1200,810" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;EFE&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;Chisinau (Moldova, Republic Of), 24\/02\/2024.- A PAS Party Youth activist lays flowers at a placard depicting Russian opposition leader Alexei Navalny, in front of the Russian embassy to mark the second anniversary of the Russian invasion of Ukraine, in Chisinau, Moldova, 24 February 2024. Russian troops entered Ukrainian territory on 24 February 2022, starting a conflict that has provoked destruction and a humanitarian crisis. (Moldavia, Rusia, Ucrania) EFE\/EPA\/DUMITRU DORU&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;PAS Party Youth anti-War flashmob in Chisinau&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG-48665990" data-image-description="" data-image-caption="&lt;p&gt;Un activista  deposita flores en un cartel de Alexei Navalny frente a la embajada rusa  en Chisinau, Moldavia&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=300%2C203&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48665990.jpg?fit=780%2C526&amp;ssl=1" /></figure><div>
+<p><strong>El cadáver del líder opositor ruso Alexei Navalny fue entregado a su madre</strong>, indicó ayer un colaborador de Navalny en redes sociales.</p>
+<p><strong>Ivan Zhdanov</strong>, director de la <strong>Fundación Anticorrupción de Navalny,</strong> hizo el anuncio en su cuenta de Telegram y dio las gracias a “todos” los que pidieron a las autoridades rusas que devolvieran el cuerpo de Navalny a su madre.</p>
+<p>Previamente, ayer,<strong> Yulia Navalnaya, viuda de Navalny</strong>, acusó al <strong>presidente Vladimir Putin</strong> de burlarse del cristianismo al intentar obligar a la madre de su esposo a aceptar un funeral secreto tras su muerte en una colonia penal del Ártico.</p>
+<blockquote><p>“Muchas gracias. Gracias a todos los que escribieron y grabaron mensajes de video. Todos hicieron lo que tenían que hacer. Gracias a todos. El cuerpo de Alexei Navalny ha sido entregado a su madre”, escribió Zhdanov.</p></blockquote>
+<p><strong>Navalny, de 47 años,</strong> el político opositor más conocido de Rusia, <strong>murió inesperadamente el 16 de febrero en una colonia penal del Ártico</strong>, y su familia lleva más de una semana luchando para que le devuelvan el cuerpo.</p>
+<p>Destacadas personalidades rusas publicaron videos en que pedían a las autoridades que entregaran el cadáver.</p>
+<p>Países occidentales impusieron a Moscú más sanciones como castigo por la muerte de Navalny, así como por el segundo aniversario de su invasión de Ucrania.</p>
+<h2>Funeral, pendiente</h2>
+<p>La madre de Navalny<strong>, Lyudmila Navalnaya</strong>, sigue en Salekhard, según informó la secretaria de prensa de Navalny, <strong>Kira Yarmysh</strong>, en la red social X, antes Twitter.</p>
+<p>Lyudmila Navalnaya llevaba más de una semana en la región ártica exigiendo a las autoridades rusas que le devolvieran el cuerpo de su hijo.</p>
+<blockquote><p>“El funeral sigue pendiente”, tuiteó Yarmysh, cuestionando que las autoridades permitan que se lleve al cabo “como quiere la familia y como merece Alexei”.</p></blockquote>
+<p>A primera hora de ayer,<strong> la viuda de Navalny afirmó en un video que la madre de Navalny estaba siendo “literalmente torturada”</strong> por las autoridades, que habían amenazado con enterrar a Navalny en la prisión del Ártico.</p>
+<p>Ellos, dijo, le insinuaron a su madre que no tenía mucho tiempo para tomar una decisión porque el cadáver se estaba descomponiendo, dijo Navalnaya.</p>
+<blockquote><p>“Entréguenos el cuerpo de mi marido”, dijo Navalnaya a primera hora de ayer.</p></blockquote>
+<p>“Lo torturaron vivo y ahora lo siguen torturando muerto. Se burlan de los restos de los fallecidos”.</p>
+<h2>Detenciones en Rusia</h2>
+<p>Las autoridades<strong> ya detuvieron a gran número de personas</strong> para tratar de suprimir cualquier muestra importante de simpatía hacia el más <strong>acérrimo enemigo de Putin</strong> antes de la elección presidencial, en la que el triunfo de éste es casi seguro.</p>
+<p>En redes sociales, los rusos afirman que los funcionarios no desean devolver el cuerpo de Navalny a su familia porque temen muestras públicas de apoyo hacia él.</p>
+<p>Personas de <strong>toda Rusia acudieron a conmemorar la ocasión</strong> y honrar la memoria de Navalny reuniéndose en iglesias ortodoxas, dejando flores en monumentos públicos o realizando protestas unipersonales.</p>
+</div>
+<p>Esta nota <a href="https://www.yucatan.com.mx/mundo/2024/02/25/al-fin-entregan-el-cuerpo-de-alexei-navalny-a-su-madre.html">Al fin entregan el cuerpo de Alexei Navalny a su madre</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1865229";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:63:"
+		
+		
+		
+		
+		
+				
+		
+		
+		
+
+					
+										
+					
+		
+		
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:99:"La semana hace 50 años: hallan sin vida al estudiante Efraín Calderón Lara, plagiado en Yucatán";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:146:"https://www.yucatan.com.mx/central-9/2024/02/25/la-semana-hace-50-anos-hallan-sin-vida-al-estudiante-efrain-calderon-lara-plagiado-en-yucatan.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 06:30:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:3:{i:0;a:5:{s:4:"data";s:9:"Central 9";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:23:"La Semana hace 50 años";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:11:"Recomendada";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"https://www.yucatan.com.mx/?p=1864813";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2887:"<figure><img width="260" height="400" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Fuerzas federales vigilan la Universidad de Yucatán el 18 de febrero, a raíz del bloqueo estudiantil por el secuestro del bachiller Efraín Calderón Lara" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?w=260&amp;ssl=1 260w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?resize=195%2C300&amp;ssl=1 195w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1&amp;w=370 370w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1&amp;w=400 400w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1864726" data-permalink="https://www.yucatan.com.mx/?attachment_id=1864726" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1" data-orig-size="260,400" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG-48648289" data-image-description="" data-image-caption="&lt;p&gt;Fuerzas federales vigilan la Universidad de Yucatán el 18 de febrero, a raíz del bloqueo estudiantil por el secuestro del bachiller Efraín Calderón Lara&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=195%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1" /></figure>
+<p>Confirman que el cuerpo hallado en un tramo de la carretera Carrillo Puerto-Chetumal es del estudiante Efraín Calderón Lara.— El Ejército sigue vigilando las calles.— El Club Campestre corona a su reina 1974.— La Acción Católica hace gala de ingenio en su Carnaval infantil anual</p>
+<p>Esta nota <a href="https://www.yucatan.com.mx/central-9/2024/02/25/la-semana-hace-50-anos-hallan-sin-vida-al-estudiante-efrain-calderon-lara-plagiado-en-yucatan.html">La semana hace 50 años: hallan sin vida al estudiante Efraín Calderón Lara, plagiado en Yucatán</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Valentina Boeta Madera";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:20375:"<figure><img width="260" height="400" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Fuerzas federales vigilan la Universidad de Yucatán el 18 de febrero, a raíz del bloqueo estudiantil por el secuestro del bachiller Efraín Calderón Lara" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?w=260&amp;ssl=1 260w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?resize=195%2C300&amp;ssl=1 195w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1&amp;w=370 370w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1&amp;w=400 400w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1864726" data-permalink="https://www.yucatan.com.mx/?attachment_id=1864726" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1" data-orig-size="260,400" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG-48648289" data-image-description="" data-image-caption="&lt;p&gt;Fuerzas federales vigilan la Universidad de Yucatán el 18 de febrero, a raíz del bloqueo estudiantil por el secuestro del bachiller Efraín Calderón Lara&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=195%2C300&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?fit=260%2C400&amp;ssl=1" /></figure>
+<p><strong><em>Confirman que el cuerpo hallado en un tramo de la carretera Carrillo Puerto-Chetumal es del estudiante Efraín Calderón Lara.— El Ejército sigue vigilando las calles.— El Club Campestre corona a su reina 1974.— La Acción Católica hace gala de ingenio en su Carnaval infantil anual</em></strong></p>
+
+
+
+<div>
+<p></p></div>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img decoding="async" width="260" height="400" alt="Fuerzas federales vigilan la Universidad de Yucatán el 18 de febrero, a raíz del bloqueo estudiantil por el secuestro del bachiller Efraín Calderón Lara" class="wp-block-jetpack-slideshow_image wp-image-1864726" data-id="1864726" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?resize=260%2C400&#038;ssl=1" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?w=260&amp;ssl=1 260w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?resize=195%2C300&amp;ssl=1 195w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?w=370&amp;ssl=1 370w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648289.jpg?w=400&amp;ssl=1 400w" sizes="(max-width: 260px) 100vw, 260px" data-recalc-dims="1" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img decoding="async" width="338" height="400" alt="Los jóvenes Jorge A. Cupul Aguilar y señorita Leonor Aldama Manzanilla el día de su enlace, el 22 de febrero de 1974 en la Casa de la Cristiandad" class="wp-block-jetpack-slideshow_image wp-image-1864728" data-id="1864728" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648287.jpg?resize=338%2C400&#038;ssl=1" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648287.jpg?w=338&amp;ssl=1 338w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648287.jpg?resize=254%2C300&amp;ssl=1 254w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648287.jpg?w=370&amp;ssl=1 370w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648287.jpg?w=400&amp;ssl=1 400w" sizes="(max-width: 338px) 100vw, 338px" data-recalc-dims="1" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img decoding="async" width="285" height="400" alt="La boda de los jóvenes Carlos José Molina Medina y Julia Graciela Arce Casares, el 16 de febrero de 1974 en la capilla de las Madres de Maryknoll" class="wp-block-jetpack-slideshow_image wp-image-1864729" data-id="1864729" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648288.jpg?resize=285%2C400&#038;ssl=1" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648288.jpg?w=285&amp;ssl=1 285w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648288.jpg?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648288.jpg?w=370&amp;ssl=1 370w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/IMG-48648288.jpg?w=400&amp;ssl=1 400w" sizes="(max-width: 285px) 100vw, 285px" data-recalc-dims="1" /></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<h2 class="wp-block-heading" id="h-domingo-17-de-febrero-de-1974-soldados-toman-las-calles-de-merida-ante-bloqueo-estudiantil">Domingo 17 de febrero de 1974: soldados toman las calles de Mérida ante bloqueo estudiantil</h2>
+
+
+
+<p>BLOQUEO.— A solicitud del <strong>gobierno del Estado</strong> y por instrucciones de la<strong> Secretaría de la Defensa Nacional,</strong> el Ejército se hizo cargo ayer por la tarde de la vigilancia de esta capital, horas después de que un <strong>centenar de policías</strong>, con el <strong>auxilio de bombas de gases lacrimógenos y disparos de armas de fuego</strong>, despejara dos veces el cruzamiento de las calles 60 y 57 del<strong> bloqueo impuesto por un sector estudiantil</strong> desde anteayer por la mañana.</p>
+
+
+
+<p> Entre las diez de la mañana y el mediodía, <strong>la fuerza pública estatal lanzó gases y disparó al aire</strong> y <strong>contra los muros de la Universidad</strong> para proteger a los <strong>policías que retiraban las barricadas de muebles</strong> y combatir la <strong>lluvia de proyectiles</strong>, incluyendo botellas con ácidos, que lanzaron individuos atrincherados en los techos del edificio escolar.</p>
+
+
+
+<p><strong> El bloqueo, las llamas y las humaredas </strong>de las llantas de automóviles que continuaron quemando los revoltosos, la acción de limpieza que emprendió la policía y la subsiguiente clausura de los alrededores de la<strong> “Casa de Estudios”</strong>, con destacamentos apostados en las calles vecinas, paralizó desde la mañana hasta las cinco de la tarde el corazón de la zona turística, donde están enclavados principales hoteles, teatros y restaurantes, así como conocidas casas comerciales. </p>
+
+
+
+<p>Poco después de las cinco de la tarde<strong> la policía se retiró de las calles de la ciudad </strong>y fue <strong>reemplazada por soldados</strong> que en varios camiones, cada uno con siete u ocho elementos equipados, con armas largas y ametralladoras, comenzaron a patrullar la urbe. Solo entonces se reanudó el tránsito de vehículos y personas por el sector afectado.</p>
+
+
+
+<p>ORDENACIÓN.—<strong> Yucatán </strong>entregó ayer un nuevo ministro al servicio de la<strong> Iglesia católica</strong>, cuando el <strong>obispo de Tlaxcala,</strong> don <strong>Luis Munive Escobar</strong>, consagró sacerdote al diácono <strong>Miguel Angel Ucán Noh</strong>, en solemne ceremonia que se efectuó ayer en la S.I. Catedral de esta ciudad, a partir de las seis de la tarde. </p>
+
+
+
+<p>Una hora y 20 minutos duró el acto, en el cual el<strong> prelado de Tlaxcala</strong>, quien actuó en nombre del <strong>arzobispo don Manuel Castro Ruiz</strong>, pidió en varias ocasiones por la salud del jefe de la Iglesia yucateca.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,517)</p>
+
+
+
+<h2 class="wp-block-heading" id="h-lunes-18-de-febrero-de-1974-tranquilidad-en-la-capital-yucateca-tras-protesta-estudiantil">Lunes 18 de febrero de 1974: tranquilidad en la capital yucateca tras protesta estudiantil</h2>
+
+
+
+<p>CALMA.— Al sábado de<strong> bombas de gases, disparos, ácidos y barricadas</strong> sucedió ayer un <strong>domingo tranquilo</strong> en que la <strong>vigilancia de la ciudad continuó a cargo del Ejército. </strong></p>
+
+
+
+<p>Por otra parte, con el objeto de seguir de cerca el curso de las investigaciones sobre la<strong> desaparición del estudiante de Leyes</strong> y asesor de sindicatos<strong> Efraín Calderón Lara</strong>, <strong>el gobernador Carlos Loret de Mola Mediz</strong> se reunió en el DAP, a las 6 p.m., con el procurador <strong>Humberto Rodríguez Rojas</strong>; el subjefe del DAP,<strong> Ernesto Abreu Gómez</strong>, y el titular de la Dgspte, coronel <strong>José Felipe Gamboa Gamboa</strong>. Al finalizar la reunión, que fue privada, el jefe del Ejecutivo informó a un reportero de este periódico que continuarán las investigaciones hasta llegar al esclarecimiento del caso.</p>
+
+
+
+<p>FIESTA INFANTIL.— Nuevo triunfo del ingenio y la paciencia al servicio de la fantasía y el buen humor constituyó ayer en el<strong> Club Campestre la tradicional fiesta infantil de disfraces </strong>que el grupo de damas de la<strong> Acción Católica</strong> presenta cada año en las <strong>vísperas del Carnaval. </strong></p>
+
+
+
+<p>El desfile de cientos de chiquillos por las pistas del Club fue como un viaje al mundo de los sueños, donde el rey es la inocencia, la reina una canción y el tributo es el aplauso. Los párvulos artistas ofrecieron los siguientes espectáculos: “La isla del tesoro”, “Pinocho en el país de las marionetas”, “Mame”, “Un cuento”, “Una noche en París”, “Muñeco de trapo”, “Cuadro mexicano” y “Hawaianas, rosas y Topo Gigios”.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,518)</p>
+
+
+
+<h2 class="wp-block-heading" id="h-martes-19-de-febrero-de-1974-estudiantes-se-reunen-en-medio-del-asedio-militar">Martes 19 de febrero de 1974: estudiantes se reunen en medio del asedio militar</h2>
+
+
+
+<p>VIGILANCIA.— El <strong>Ejército</strong> continuó ayer, por tercer día consecutivo,<strong> a cargo de la vigilancia de la ciudad.</strong> </p>
+
+
+
+<p>Camiones con soldados y equipos de radio <strong>patrullaron la urbe</strong> y en ciertos lugares, como en el <strong>parque de Santiago y cerca de la Escuela de Medicina</strong>, hubo destacamentos fijos. Cerca del mediodía hubo<strong> cierto movimiento de muchachos</strong> en los alrededores de la Universidad, con motivo, según se dice, de una junta en el interior del plantel. </p>
+
+
+
+<p>Esto ocasionó la <strong>presencia de varios soldados</strong> frente al edificio, entre las 11 y 11:30 horas. Después de las 12, un pelotón estuvo apostado en el parque de Santa Lucía.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,519)</p>
+
+
+
+<h2 class="wp-block-heading" id="h-miercoles-20-de-febrero-de-1974-confirman-muerte-del-estudiante-efrain-calderon-lara">Miércoles 20 de febrero de 1974: confirman muerte del estudiante Efraín Calderón Lara</h2>
+
+
+
+<p>SUCESOS DE POLICÍA.— El procurador general de Justicia, <strong>Humberto Rodríguez Rojas,</strong> declaró anoche que <strong>el cadáver en estado de descomposición</strong> descubierto anteayer en la <strong>carretera Carrillo Puerto-Chetumal</strong> es el del<strong> joven campechano Efraín Calderón Lara,</strong> estudiante de Leyes y asesor de sindicatos locales que <strong>fue secuestrado</strong> en esta capital el miércoles último. </p>
+
+
+
+<p>La<strong> autopsia </strong>practicada ayer por la tarde en el cementerio de Carrillo Puerto por los <strong>doctores Gaspar Vázquez Garrido y Gabriel Gutiérrez Cepeda</strong>, del <strong>Hospital Civil “Morelos” de Chetumal</strong>, indica que <strong>la muerte ocurrió hace una semana</strong>, sobre poco más o menos, y no permite establecer la causa directa del fallecimiento debido a la descomposición avanzada del cuerpo. </p>
+
+
+
+<p>Rodríguez Rojas dijo que el gobierno del Estado solicitó ya el auxilio de la Procuraduría General del Distrito y Territorios Federales para esclarecer este trágico suceso.</p>
+
+
+
+<p>Parece que el <strong>infortunado joven de 25 años de edad</strong>, oriundo de<strong> Hopelchén,</strong> <strong>murió pocas horas después de que cuatro hombres</strong>, según denuncia interpuesta ante el DAP, descendieron de un automóvil azul y lo secuestraron a las 11:30 de la noche del miércoles 13 en la<strong> carretera Mérida-Progreso</strong>, cerca del<strong> Club Campestre</strong>. </p>
+
+
+
+<p>Casi una semana después, <strong>el cadáver</strong>, en paños menores, descompuesto, atado de pies y manos, con los ojos y la boca cubiertos por vendas y mordaza,<strong> fue descubierto por un campesino anteayer a las 4:30 p.m</strong>. en la mencionada carretera, a la altura del kilómetro 101.500.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,520)</p>
+
+
+
+<h2 class="wp-block-heading" id="h-jueves-21-de-febrero-de-1974-realizan-nueva-autopsia-al-cuerpo-de-efrain-calderon">Jueves 21 de febrero de 1974: realizan nueva autopsia al cuerpo de Efraín Calderón</h2>
+
+
+
+<p>POLICÍA.— El <strong>sepelio del bachiller Efraín Calderón</strong> se efectuó ayer, poco después del mediodía, pero tres horas más tarde fue <strong>exhumado el cadáve</strong>r y trasladado del <strong>Panteón Florido al Hospital 0‘Horán</strong>, con el objeto, según informaciones oficiales, de que las autoridades <strong>practicaran radiografías y nueva autopsia</strong>.</p>
+
+
+
+<p> Por la noche corrieron por la ciudad insistentes <strong>rumores sobre el traslado del cuerpo</strong> al hospital, por deseo de amistades del infortunado joven, con el objeto de<strong> confirmar la identificación,</strong> no obstante que las huellas digitales tomadas al cadáver coinciden con las que tenía el DAP y fueron tomadas en vida del occiso. Se trataba de encontrar, con radiografías u otros exámenes, según se dijo, una fractura que, de acuerdo con datos que se atribuyen a parientes, sufrió hace años el extinto.</p>
+
+
+
+<p>CARNAVAL.— La<strong> reina electa del Carnaval de Mérida 1974</strong>,<strong> Ligia Beatriz Palma Fisovich</strong>, ofreció anoche, en su residencia de la <strong>Prolongación del Paseo de Montejo</strong>, un vino de honor al que asistieron su corte y los integrantes del Comité Organizador de las carnestolendas.</p>
+
+
+
+<p> En la reunión, el<strong> Comité Organizador</strong>, que encabeza Raúl Ancona Ramírez, informó que por ningún motivo serán suspendidas las <strong>fiestas de Momo</strong>, con lo cual desmintió insistentes rumores que en ese sentido se han escuchado en la ciudad.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,521)</p>
+
+
+
+<h2 class="wp-block-heading" id="h-viernes-22-de-febrero-de-1974-piden-la-destitucion-del-gobernador-de-yucatan">Viernes 22 de febrero de 1974: piden la destitución del gobernador de Yucatán</h2>
+
+
+
+<p>DESPLEGADO.— MÉXICO.— La <strong>Comisión Ejecutiva del Comité Central del Partido Comunista Mexicano</strong> publicó ayer, en la página 13-A del periódico “Excelsior”, un desplegado con el título de “Unidad y movilización frente al terror”, cuyo primer párrafo dice: “<strong>El asesinato del asesor jurídico</strong> del <strong>Frente Sindical Independiente de Mérida,</strong> compañero <strong>Efraín Calderón Lara, </strong>es un gravísimo hecho en la secuela de ejecuciones, secuestros y atentados cometidos contra las fuerzas democráticas revolucionarias”.</p>
+
+
+
+<p> El desplegado concluye en la forma siguiente: “El <strong>Partido Comunista Mexicano</strong> apoya la lucha y las demandas de los trabajadores y estudiantes yucatecos:<strong> esclarecimiento del asesinato de Efraín Calderón Lara,</strong> destitución y enjuiciamiento por asesinato al jefe de la policía de Yucatán; <strong>destitución del gobernador Carlos Loret de Mola</strong>”.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,522)</p>
+
+
+
+<h2 class="wp-block-heading" id="h-sabado-23-de-febrero-de-1974-da-inicio-el-carnaval-del-club-campestre">Sábado 23 de febrero de 1974: da inicio el Carnaval del Club Campestre</h2>
+
+
+
+<p>PROCLAMACIÓN.— En ambiente napoleónico se inició anoche el <strong>Carnaval en el Club Campestre de Mérida</strong>, con la proclamación de la <strong>reina Alicia García Gamboa</strong>, quien caracterizó a Josefina, durante elegante baile que terminó a las primeras horas de hoy. </p>
+
+
+
+<p>A las 11:30 de la noche se inició el acto, con un desfile de la soberana entrante, acompañada del presidente del Club, <strong>José Antonio Palomeque Larrea</strong>, y 24 parejas de damas y chambelanes. </p>
+
+
+
+<p><strong>Ileana Rodríguez Palomeque</strong>, reina saliente, entró en la pista de baile acompañada del vicepresidente del Club, <strong>Oswaldo Millet Rendón</strong>, y se instaló al pie del estrado, donde la orquesta interpretaba una marcha. En el lado opuesto estaban Alicia y sus acompañantes.</p>
+
+
+
+<p>A los compases de las notas musicales, las parejas de damas y chambelanes comenzaron a desplazarse rítmicamente por la pista hasta formar una valla a todo lo largo del salón.</p>
+
+
+
+<p>El presidente del club entregó sendos ramos de claveles amarillos y flores blancas a Ileana y Alicia, en ese orden. Luego subió al estrado y dio lectura a un pergamino en que se proclamaba reina a la <strong>señorita García Gamboa,</strong> a quien le entregó después el documento. </p>
+
+
+
+<p>Seguidamente, la nueva soberana bailó un vals con su chambelán, <strong>Rodrigo Rubio Bartell,</strong> quien caracterizó a Napoleón. Finalmente, la reina y su corte bailaron una parte de la comedia musical inglesa “Mame”. La ceremonia terminó a las 23:55, hora a que comenzó el baile.</p>
+
+
+
+<p>(De “Diario de Yucatán” número 17,523)</p>
+
+
+
+<p>Lee también: <a href="https://www.yucatan.com.mx/central-9/2024/02/18/la-semana-hace-50-anos-universitarios-bloquean-el-transito-en-el-centro-en-protesta-al-plagio-de-un-estudiante.html">La semana hace 50 años: Universitarios bloquean el tránsito en el Centro, en protesta al plagio de “El Charras”</a><br><a href="https://www.yucatan.com.mx/central-9/2024/02/11/la-semana-hace-50-anos-se-registra-un-grave-incendio-en-una-cordeleria-de-yucatan.html">La semana hace 50 años: se registra un grave incendio en una cordelería de Yucatán</a><br><a href="https://www.yucatan.com.mx/central-9/2024/02/04/la-semana-hace-50-anos-arzobispo-de-yucatan-grave-tras-volcadura-de-un-auto-donde-perdio-la-vida-un-parroco.html">La semana hace 50 años: arzobispo de Yucatán, grave tras volcadura de un auto donde perdió la vida un párroco</a></p>
+<p>Esta nota <a href="https://www.yucatan.com.mx/central-9/2024/02/25/la-semana-hace-50-anos-hallan-sin-vida-al-estudiante-efrain-calderon-lara-plagiado-en-yucatan.html">La semana hace 50 años: hallan sin vida al estudiante Efraín Calderón Lara, plagiado en Yucatán</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864813";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:60:"
 		
 		
 		
@@ -44,7 +298,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 					
 		
 		
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:64:"Trump derrota a Nikki Haley en las primarias de Carolina del Sur";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:113:"https://www.yucatan.com.mx/mundo/2024/02/24/trump-derrota-a-nikki-haley-en-las-primarias-de-carolina-del-sur.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 04:24:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:2:{i:0;a:5:{s:4:"data";s:5:"Mundo";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:11:"Recomendada";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"https://www.yucatan.com.mx/?p=1864849";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3324:"<figure><img width="1024" height="630" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=1024%2C630&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Trump arrasa en elecciones primarias de Carolina del Sur, estado natal de su rival, la ex gobernadora Nikki Haley" decoding="async" fetchpriority="high" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?w=1200&amp;ssl=1 1200w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=300%2C185&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=1024%2C630&amp;ssl=1 1024w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=768%2C472&amp;ssl=1 768w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=400%2C246&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=706%2C434&amp;ssl=1 706w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=1024%2C630&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1865056" data-permalink="https://www.yucatan.com.mx/mundo/2024/02/24/trump-derrota-a-nikki-haley-en-las-primarias-de-carolina-del-sur.html/attachment/trump-nikki-haley" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=1200%2C738&amp;ssl=1" data-orig-size="1200,738" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="trump Nikki Haley" data-image-description="" data-image-caption="&lt;p&gt;Trump arrasa en elecciones primarias de Carolina del Sur, estado natal de su rival, la ex gobernadora Nikki Haley&lt;/p&gt;
+			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:64:"Trump derrota a Nikki Haley en las primarias de Carolina del Sur";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:113:"https://www.yucatan.com.mx/mundo/2024/02/24/trump-derrota-a-nikki-haley-en-las-primarias-de-carolina-del-sur.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 04:24:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:2:{i:0;a:5:{s:4:"data";s:5:"Mundo";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:11:"Recomendada";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"https://www.yucatan.com.mx/?p=1864849";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3303:"<figure><img width="1024" height="630" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=1024%2C630&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="Trump arrasa en elecciones primarias de Carolina del Sur, estado natal de su rival, la ex gobernadora Nikki Haley" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?w=1200&amp;ssl=1 1200w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=300%2C185&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=1024%2C630&amp;ssl=1 1024w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=768%2C472&amp;ssl=1 768w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=400%2C246&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?resize=706%2C434&amp;ssl=1 706w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=1024%2C630&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1865056" data-permalink="https://www.yucatan.com.mx/mundo/2024/02/24/trump-derrota-a-nikki-haley-en-las-primarias-de-carolina-del-sur.html/attachment/trump-nikki-haley" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=1200%2C738&amp;ssl=1" data-orig-size="1200,738" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="trump Nikki Haley" data-image-description="" data-image-caption="&lt;p&gt;Trump arrasa en elecciones primarias de Carolina del Sur, estado natal de su rival, la ex gobernadora Nikki Haley&lt;/p&gt;
 " data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=300%2C185&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/trump-Nikki-Haley.jpg?fit=780%2C480&amp;ssl=1" /></figure>
 <p>COLUMBIA.- El ex presidente de Estados Unidos, Donald Trump, derrotó a Nikki Haley en las primarias del Partido Republicano en Carolina del Sur, con lo cual está más cerca de obtener la candidatura presidencial en noviembre próximo. Las proyecciones de medios de comunicación como The New York Times y Fox News indican que Trump habría [&#8230;]</p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/mundo/2024/02/24/trump-derrota-a-nikki-haley-en-las-primarias-de-carolina-del-sur.html">Trump derrota a Nikki Haley en las primarias de Carolina del Sur</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
@@ -102,7 +356,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 <p class="has-text-align-justify"><strong>Te puede interesar: </strong><a href="https://www.yucatan.com.mx/mexico/2024/02/24/youtube-baja-mananera-de-amlo-donde-revela-datos-personales-sobre-reportera-de-nyt.html" target="_blank" rel="noreferrer noopener">YouTube “baja” mañanera de AMLO donde revela datos personales sobre reportera de NYT</a></p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/mundo/2024/02/24/trump-derrota-a-nikki-haley-en-las-primarias-de-carolina-del-sur.html">Trump derrota a Nikki Haley en las primarias de Carolina del Sur</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864849";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:57:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864849";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:57:"
 		
 		
 		
@@ -149,7 +403,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>Cuando eso suceda,<strong> hay que decirle a la persona que intente tomar un descanso</strong> de todos modos. En la mayoría de los casos, el cielo no se caerá, dijo.</p>
 <p>“Puedes ir a la vida a 100 kilómetros por hora, pero rápidamente te darás cuenta de que no podrás mantener ese ritmo por mucho tiempo”, advirtió Storch. “Una vez que aprendas a cuidarte de manera efectiva, lo que a menudo significa detenerte para descansar, descubrirás que puedes ir más allá de lo que creías posible”.</p>
 </div><p>Esta nota <a href="https://www.yucatan.com.mx/salud/2024/02/24/como-identificar-el-agotamiento-y-que-hacer-para-combatirlo.html">Cómo identificar el agotamiento y qué hacer para combatirlo</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1865016";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:60:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1865016";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:60:"
 		
 		
 		
@@ -204,7 +458,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 <p><strong>Te puede interesar:</strong> <a href="https://www.yucatan.com.mx/mexico/2024/02/16/roban-restos-de-una-nina-de-un-panteon-de-ciudad-de-mexico.html" target="_blank" rel="noreferrer noopener">Roban restos de una niña de un panteón de Ciudad de México</a></p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/mexico/2024/02/24/detienen-en-pleno-robo-a-saqueador-de-tumbas-en-alcaldia-de-cdmx.html">Detienen en pleno robo a saqueador de tumbas en alcaldía de CDMX</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864833";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:72:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864833";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:72:"
 		
 		
 		
@@ -385,7 +639,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 <p></p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/espectaculos/2024/02/24/hermano-de-daniel-bisogno-confiesa-por-que-el-conductor-de-ventaneando-fue-intubado.html">Hermano de Daniel Bisogno confiesa por qué el conductor de Ventaneando fue intubado</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864759";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:60:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864759";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:60:"
 		
 		
 		
@@ -448,7 +702,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 <p class="has-text-align-justify"><strong>Te puede interesar:</strong> <a href="https://www.yucatan.com.mx/mundo/2024/02/23/ocho-mexicanos-mueren-en-accidente-en-california-eran-trabajadores-agricolas.html" target="_blank" rel="noreferrer noopener">Ocho mexicanos mueren en accidente en California; eran trabajadores agrícolas</a></p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/mexico/2024/02/24/mueren-peregrinos-en-accidente-en-carretera-de-slp-cuatro-eran-menores-de-edad.html">Mueren peregrinos en accidente en carretera de SLP; cuatro eran menores de edad</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864791";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:60:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864791";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:60:"
 		
 		
 		
@@ -503,7 +757,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 <p>En dicho mensaje se incluyó un video cuyo audio reporta que el taquero hace una llamada para que le hagan llegar una pistola para “matarlos” y también muestra el momento en el que hace uso de un machete y con él intenta atacarlos.</p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/mexico/2024/02/24/video-taquero-amenaza-a-comensales-que-defendieron-a-una-clienta-de-acoso.html">Vídeo. Taquero amenaza a comensales que defendieron a una clienta de acoso</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864806";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:60:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864806";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:60:"
 		
 		
 		
@@ -582,7 +836,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>“En el karate, ya lo dijimos y lo diremos siempre, no se deja de aprender”, expresó el sensei Pedro Torre López, cinta negra séptimo dan, presente en la mesa de examinadores con los maestros Álvaro Ruiz Muñoz, Fernando Quijano Pereira y Denis Houde, todos ellos séptimo dan.</p>
 </blockquote>
 <p>Esta nota <a href="https://www.yucatan.com.mx/deportes/2024/02/24/pasion-con-aprendizajes-presentan-examen-de-grado-en-el-dojo-central-del-sureste.html">Pasión con aprendizajes: presentan examen de grado en el Dojo Central del Sureste</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864749";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:60:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864749";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:60:"
 		
 		
 		
@@ -645,147 +899,6 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 <p class="has-text-align-justify"><strong>Te puede interesar:</strong> <a href="https://www.yucatan.com.mx/mexico/2024/02/15/militar-muere-en-ataque-con-municiones-estadounidenses-bala-atraviesa-vehiculo-blindado-en-nuevo-leon.html" target="_blank" rel="noreferrer noopener">Militar&nbsp;muere&nbsp;en ataque con municiones estadounidenses; bala atraviesa vehículo blindado</a></p>
 <p>Esta nota <a href="https://www.yucatan.com.mx/mexico/2024/02/24/hallan-sin-vida-a-secretario-de-seguridad-de-berriozabal-chiapas-y-dos-colaboradores.html">Hallan sin vida a secretario de Seguridad de Berriozábal, Chiapas y dos colaboradores</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864719";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:82:"
-		
-		
-					
-		
-		
-		
-				
-		
-		
-		
-		
-
-					
-										
-					
-					
-			
-		
-		
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:6:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:80:"Vinculan a proceso a sujeto que privó de la vida a un chofer del ”Va y Ven”";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:123:"https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:131:"https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html#respond";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 01:36:55 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:4:{i:0;a:5:{s:4:"data";s:7:"Mérida";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:9:"Destacada";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:2;a:5:{s:4:"data";s:19:"Noticias de Mérida";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:3;a:5:{s:4:"data";s:19:"Transporte Va y Ven";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"https://www.yucatan.com.mx/?p=1864748";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2995:"<figure><img width="1024" height="678" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=1024%2C678&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?w=1123&amp;ssl=1 1123w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=300%2C199&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=1024%2C678&amp;ssl=1 1024w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=768%2C509&amp;ssl=1 768w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=400%2C265&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=706%2C468&amp;ssl=1 706w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=1024%2C678&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1864750" data-permalink="https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html/attachment/vinculan" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=1123%2C744&amp;ssl=1" data-orig-size="1123,744" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="vinculan" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=300%2C199&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=780%2C516&amp;ssl=1" /></figure>
-<p>MÉRIDA.- El hombre que empujó y dio muerte al chofer del transporte urbano de pasajeros &#8220;Va y Ven&#8221;, cuando éste intervino para evitar que cometiera actos lascivos en contra de una pasajera, fue vinculado a proceso por los delitos de abuso sexual agravado y homicidio. En un principio fue sometido a una evaluación psiquiátrica pensando [&#8230;]</p>
-<p>Esta nota <a href="https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html">Vinculan a proceso a sujeto que privó de la vida a un chofer del &#8221;Va y Ven&#8221;</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"El Universal";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:5389:"<figure><img width="1024" height="678" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=1024%2C678&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?w=1123&amp;ssl=1 1123w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=300%2C199&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=1024%2C678&amp;ssl=1 1024w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=768%2C509&amp;ssl=1 768w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=400%2C265&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?resize=706%2C468&amp;ssl=1 706w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=1024%2C678&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1864750" data-permalink="https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html/attachment/vinculan" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=1123%2C744&amp;ssl=1" data-orig-size="1123,744" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="vinculan" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=300%2C199&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/vinculan.jpg?fit=780%2C516&amp;ssl=1" /></figure>
-<p>MÉRIDA.- El <strong>hombre que empujó y dio muerte al chofer</strong> del transporte urbano de pasajeros <strong>&#8220;Va y Ven&#8221;</strong>, cuando éste intervino para evitar que cometiera <strong>actos lascivos en contra de una pasajera,</strong> fue<strong> vinculado a proceso </strong>por los delitos de<strong> abuso sexual agravado y homicidio</strong>. </p>
-
-
-
-<p>En un principio fue sometido a una<strong> evaluación psiquiátrica</strong> pensando que estaba afectado de sus <strong>facultades mentales;</strong> tras descartar esto, <strong>fue acusado de causar la muerte al chofer M.E.C.V.</strong> y fue vinculado a proceso por los delitos mencionados. </p>
-
-
-
-<p>Durante la audiencia celebrada en el Centro de Justicia Oral de Mérida, la Fiscalía General del Estado (FGE) aportó los datos y elementos de prueba de la causa penal 27/2024, los cuales fueron valorados por la Juez Primera de Control del Primer Distrito. </p>
-
-
-
-<p>Esta última  consideró que eran suficientemente probatorios de la existencia de los <strong>delitos y la participación del encausado</strong>, por lo que decretó el citado auto de vinculación a proceso, además de otorgar un plazo de tres meses para el cierre de la investigación complementaria.</p>
-
-
-
-<h2 class="wp-block-heading" id="h-tragedia-en-un-autobus-del-va-y-ven">Tragedia en un autobús del &#8220;Va y Ven&#8221;</h2>
-
-
-
-<p> Los hechos, <strong>reunidos en la carpeta de investigación</strong>, ocurrieron el <strong>28 de enero pasado</strong>, en el interior del autobús que se encontraba sobre la calle 109-C por 66 y 66-B de la<strong> colonia Obrera,</strong> cuando el inculpado cometió <strong>actos lascivos en contra de una ciudadana</strong>.</p>
-
-
-
-<p>El chofer del autobús intervino y éste le empujó, haciendo que <strong>cayera sobre el pavimento y se golpeara la cabeza</strong>, hecho que le causó lesiones que finalmente le provocaron la muerte. </p>
-
-
-
-<p>Antes de concluir la diligencia, se ratificó l<strong>a medida cautelar de prisión preventiva oficiosa</strong>, la cual <strong>permanecerá vigente</strong> por todo el tiempo que dure el proceso, por lo que el vinculado continuará privado de su libertad hasta establecer totalmente su participación en los hechos denunciados.</p>
-
-
-
-<p>Lee también: <a href="https://www.yucatan.com.mx/merida/2024/02/12/dan-ultimo-adios-a-chofer-de-va-y-ven-que-defendio-a-pasajera-de-un-acosador.html">Dan último adiós a chofer de “Va y Ven” que defendió a pasajera de un acosador</a><br><a href="https://www.yucatan.com.mx/merida/2024/02/10/muere-chofer-de-va-y-ven-tras-agresion-de-un-pasajero-en-merida-video.html">Muere chofer de “Va y Ven” tras agresión de un pasajero, en Mérida (VÍDEO)</a></p>
-<p>Esta nota <a href="https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html">Vinculan a proceso a sujeto que privó de la vida a un chofer del &#8221;Va y Ven&#8221;</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:36:"http://wellformedweb.org/CommentAPI/";a:1:{s:10:"commentRss";a:1:{i:0;a:5:{s:4:"data";s:128:"https://www.yucatan.com.mx/merida/2024/02/24/vinculan-a-proceso-a-sujeto-que-privo-de-la-vida-a-un-chofer-del-va-y-ven.html/feed";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:38:"http://purl.org/rss/1.0/modules/slash/";a:1:{s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:1:"0";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864748";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:60:"
-		
-		
-		
-		
-		
-				
-		
-		
-
-					
-										
-					
-		
-		
-			";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:4:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:83:"Claudia Sheinbaum denuncia filtración de su número telefónico y mensajes de odio";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:130:"https://www.yucatan.com.mx/mexico/2024/02/24/claudia-sheinbaum-denuncia-filtracion-de-su-numero-telefonico-y-mensajes-de-odio.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Feb 2024 01:25:28 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:2:{i:0;a:5:{s:4:"data";s:7:"México";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}i:1;a:5:{s:4:"data";s:11:"Recomendada";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"https://www.yucatan.com.mx/?p=1864724";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2632:"<figure><img width="435" height="281" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?w=435&amp;ssl=1 435w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?resize=400%2C258&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1864746" data-permalink="https://www.yucatan.com.mx/mexico/2024/02/24/claudia-sheinbaum-denuncia-filtracion-de-su-numero-telefonico-y-mensajes-de-odio.html/attachment/claudia1-5" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1" data-orig-size="435,281" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="claudia1" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=300%2C194&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1" /></figure>
-<p>CIUDAD DE MÉXICO.- La candidata presidencial Claudia Sheinbaum denunció que su número de teléfono fue filtrado en redes sociales y por ello ha estado recibiendo mensajes de odio en su celular. “El día de hoy he estado recibiendo llamadas sin parar y mensajes de odio ( como el que muestro) pues alguien publicó mi número [&#8230;]</p>
-<p>Esta nota <a href="https://www.yucatan.com.mx/mexico/2024/02/24/claudia-sheinbaum-denuncia-filtracion-de-su-numero-telefonico-y-mensajes-de-odio.html">Claudia Sheinbaum denuncia filtración de su número telefónico y mensajes de odio</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"El Universal";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:40:"http://purl.org/rss/1.0/modules/content/";a:1:{s:7:"encoded";a:1:{i:0;a:5:{s:4:"data";s:6857:"<figure><img width="435" height="281" src="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1" class="attachment-rss-image-size size-rss-image-size wp-post-image" alt="" decoding="async" srcset="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?w=435&amp;ssl=1 435w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?resize=300%2C194&amp;ssl=1 300w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?resize=400%2C258&amp;ssl=1 400w, https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1&amp;w=370 370w" sizes="(max-width: 34.9rem) calc(100vw - 2rem), (max-width: 53rem) calc(8 * (100vw / 12)), (min-width: 53rem) calc(6 * (100vw / 12)), 100vw" data-attachment-id="1864746" data-permalink="https://www.yucatan.com.mx/mexico/2024/02/24/claudia-sheinbaum-denuncia-filtracion-de-su-numero-telefonico-y-mensajes-de-odio.html/attachment/claudia1-5" data-orig-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1" data-orig-size="435,281" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="claudia1" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=300%2C194&amp;ssl=1" data-large-file="https://i0.wp.com/newspack-yucatan.s3.amazonaws.com/uploads/2024/02/claudia1.jpg?fit=435%2C281&amp;ssl=1" /></figure>
-<p>CIUDAD DE MÉXICO.- La candidata presidencial <strong>Claudia Sheinbaum</strong> denunció que <strong>su número de teléfono fue filtrado en redes sociales</strong> y por ello ha estado recibiendo <strong>mensajes de odio en su celular.</strong></p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>“El día de hoy he estado recibiendo llamadas sin parar y mensajes de odio ( como el que muestro) pues alguien publicó mi número de teléfono celular en redes sociales”, señaló la <strong>exjefa de Gobierno de la Ciudad de México</strong> en su cuenta oficial de X.</p>
-</blockquote>
-
-
-
-<p>Claudia Sheinbaum acompañó el texto con una imagen en la que una persona señala no ser robot y asegura que la candidata del Morena,  PT y PEVM no lo representa.</p>
-
-
-
-<p>El supuesto atacante acompaña ese texto con hashtags como #NarcoCandidataClaudia #NarcoGobiernoMorena #NarcoDictadorAmlo y #NarcopresidenteAmlo.</p>
-
-
-
-<blockquote class="wp-block-quote">
-<p>“Quiere echarle la culpa a alguien, acuda a Palacio y quéjese con su patrón”, concluye el texto mostrado por la aspirante presidencial, que  calificó los ataques “tan burdos como inofensivos”.</p>
-</blockquote>
-
-
-
-<p>“Los números que deberían preocuparles son los de las encuestas. <strong>A cambiar el número de teléfono.</strong> Que tengan buen día”, puntualizó.</p>
-
-
-
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
-<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="es" dir="ltr">El día de hoy he estado recibiendo llamadas sin parar y mensajes de odio ( como el que muestro) pues alguien publicó mi número de teléfono celular en redes sociales. Es obvio lo que quieren hacer, de nuevo sus ataques son tan burdos como inofensivos. Los números que deberían… <a href="https://t.co/nCFXF5f7lc">pic.twitter.com/nCFXF5f7lc</a></p>&mdash; Dra. Claudia Sheinbaum (@Claudiashein) <a href="https://twitter.com/Claudiashein/status/1761532057119830400?ref_src=twsrc%5Etfw">February 24, 2024</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div></figure>
-
-
-
-<h2 class="wp-block-heading" id="h-filtracion-de-numeros-telefonicos-de-allegados-a-amlo">Filtración de números telefónicos de allegados a AMLO </h2>
-
-
-
-<p>La <strong>divulgación del número telefónico</strong> de <strong>Claudia Sheinbaum</strong> ocurre apenas unas horas después de que el <strong>hijo mayor del presidente, Andrés Manuel López Obrador, José Ramón,</strong> denunciará en redes sociales que la información de su celular fue filtrado también.</p>
-
-
-
-<p>Además se da en medio de la controversia originada por <strong>el mandatario mexicano</strong>, quien exhibió una carta de la corresponsal del diario The New York Times, N<strong>atalie Kitroeff </strong>con su teléfono.</p>
-
-
-
-<p>En dicha misiva, la periodista le pedía su respuesta sobre una<strong> investigación de Estados Unidos</strong>, cerrada ahora, de <strong>supuestos sobornos del Cártel de Sinaloa y del Cártel de los Zetas </strong>que recibió la campaña de López Obrador en 2018 y que involucraba también a sus hijos.</p>
-
-
-
-<p>La <strong>difusión de la información privada de la periodista </strong>desató una investigación del Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (<strong>Ina</strong>i), además de un pronunciamiento de <strong>The New York Times </strong>y críticas de organizaciones como el Comité de Protección a Periodistas (<strong>CPJ</strong>), que coincidieron en el riesgo que esto representa en México, uno de los países con más asesinatos de comunicadores.</p>
-
-
-
-<p>Sin embargo,<strong> López Obrador desestimó la investigación del Inai </strong>y defendió haber divulgado los datos de la periodista.</p>
-
-
-
-<p>Durante el sexenio de López Obrador (2018-2024), al menos 69 periodistas han muerto asesinados, según recordó la organización Propuesta Cívica tras la controversia. </p>
-
-
-
-<p>Lee también: <a href="https://www.yucatan.com.mx/mexico/2024/02/24/asi-reacciono-amlo-a-filtracion-del-numero-telefonico-de-su-hijo-jose-ramon.html">Así reaccionó AMLO a filtración del número telefónico de su hijo José Ramón</a><br><a href="https://www.yucatan.com.mx/mexico/2024/02/24/youtube-baja-mananera-de-amlo-donde-revela-datos-personales-sobre-reportera-de-nyt.html">YouTube “baja” mañanera de AMLO donde revela datos personales sobre reportera de NYT</a></p>
-<p>Esta nota <a href="https://www.yucatan.com.mx/mexico/2024/02/24/claudia-sheinbaum-denuncia-filtracion-de-su-numero-telefonico-y-mensajes-de-odio.html">Claudia Sheinbaum denuncia filtración de su número telefónico y mensajes de odio</a> apareció primero en <a href="https://www.yucatan.com.mx">Diario de Yucatán</a>.</p>
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864724";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:31:"https://www.yucatan.com.mx/feed";s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:44:"http://purl.org/rss/1.0/modules/syndication/";a:2:{s:12:"updatePeriod";a:1:{i:0;a:5:{s:4:"data";s:9:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:7:"post-id";a:1:{i:0;a:5:{s:4:"data";s:7:"1864719";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:4:"href";s:31:"https://www.yucatan.com.mx/feed";s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:44:"http://purl.org/rss/1.0/modules/syndication/";a:2:{s:12:"updatePeriod";a:1:{i:0;a:5:{s:4:"data";s:9:"
 	hourly	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:15:"updateFrequency";a:1:{i:0;a:5:{s:4:"data";s:4:"
-	1	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:4:"site";a:1:{i:0;a:5:{s:4:"data";s:9:"224134432";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:13:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Sun, 25 Feb 2024 05:55:54 GMT";s:12:"content-type";s:34:"application/rss+xml; charset=UTF-8";s:25:"strict-transport-security";s:16:"max-age=31536000";s:4:"vary";s:23:"Accept-Encoding, Cookie";s:10:"x-nananana";s:12:"Batcache-Hit";s:11:"host-header";s:8:"Newspack";s:13:"last-modified";s:29:"Sun, 25 Feb 2024 05:55:10 GMT";s:4:"etag";s:36:"W/"a6f1143efe5c10cc45a21710ee87e66a"";s:4:"link";s:44:"<https://www.yucatan.com.mx/>; rel=canonical";s:16:"content-encoding";s:4:"gzip";s:4:"x-ac";s:22:"5.dfw _atomic_dfw MISS";s:7:"alt-svc";s:17:"h3=:443; ma=86400";}s:5:"build";s:14:"20170417072931";}
+	1	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:30:"com-wordpress:feed-additions:1";a:1:{s:4:"site";a:1:{i:0;a:5:{s:4:"data";s:9:"224134432";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:14:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Sun, 25 Feb 2024 07:00:41 GMT";s:12:"content-type";s:34:"application/rss+xml; charset=UTF-8";s:25:"strict-transport-security";s:16:"max-age=31536000";s:4:"vary";s:23:"Accept-Encoding, Cookie";s:11:"host-header";s:8:"Newspack";s:13:"last-modified";s:29:"Sun, 25 Feb 2024 06:30:00 GMT";s:4:"etag";s:36:"W/"8c6acf9d820651d77541803bf05a4d0f"";s:4:"link";s:44:"<https://www.yucatan.com.mx/>; rel=canonical";s:13:"cache-control";s:28:"max-age=300, must-revalidate";s:10:"x-nananana";s:12:"Batcache-Set";s:16:"content-encoding";s:4:"gzip";s:4:"x-ac";s:29:"5.dfw _atomic_dfw REVALIDATED";s:7:"alt-svc";s:17:"h3=:443; ma=86400";}s:5:"build";s:14:"20170417072931";}
