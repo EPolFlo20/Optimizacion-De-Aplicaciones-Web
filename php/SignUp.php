@@ -1,9 +1,10 @@
 <?php
-
 header("Access-Control-Allow-Origin: *"); 
 header("Access-Control-Allow-Headers: access, Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 header("Access-Control-Allow-Methods: GET, POST");
 header("Content-Type: application/json; charset=UTF-8");
+
+session_start();
 
 function connection(){
     $servername = "localhost";
