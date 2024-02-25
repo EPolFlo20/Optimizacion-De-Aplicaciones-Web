@@ -1,9 +1,16 @@
 <?php
-echo '<link rel="stylesheet" href="../css/simplepie.css">';
+if (empty($_SESSION["id_usuario"])) {
+    header("location: ../html/Login.html");
+}
 
-echo '</div>';
+$id_usuario = $_SESSION["id_usuario"];
 
-function readRSS($link){
+function readFromDB(){
+    require '';
+}
+
+function readRSS($link)
+{
     require_once 'autoloader.php';
 
     $rss_feed_url = $link;
@@ -23,6 +30,3 @@ function readRSS($link){
     }
     echo '</div>';
 }
-
-readRSS('https://www.yucatan.com.mx/feed');
-?>
