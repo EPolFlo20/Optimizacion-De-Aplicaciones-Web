@@ -36,3 +36,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Si no se reciben datos por POST, muestra un mensaje de error
     echo "No se han recibido datos del formulario";
 }
+?>

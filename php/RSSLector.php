@@ -52,3 +52,4 @@ function readRSS($link)
     }
     echo '</div>';
 }
+?>

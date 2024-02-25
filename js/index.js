@@ -1,9 +1,9 @@
-// Función para mostrar el formulario de confirmación
+// Función para mostrar el formulario de registro de feeds
 function mostrarForms() {
     document.getElementById("agregarFeed").style.display = "block";
 }
 
-// Función para ocultar el formulario de confirmación
+// Función para ocultar el formulario de registro de feeds
 function ocultarConfirmacion() {
     document.getElementById("agregarFeed").style.display = "none";
 }
@@ -31,7 +31,7 @@ window.onload = () => {
             });
 
 
-        alert("Acción realizada");
+        alert("Feed agregado exitosamente");
         // Oculta el formulario después de realizar la acción
         ocultarConfirmacion();
     });

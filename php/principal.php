@@ -72,7 +72,7 @@ require_once 'RSSLector.php';
             <form id="FormFeed">
                 <input type="text" name="feed" placeholder="Usuario" required>
                 <button onclick="ocultarConfirmacion()">Cancelar</button>
-                <button type="submit" id="feed_button">Iniciar sesión</button>
+                <button type="submit" id="feed_button">Agregar Feed</button>
             </form>
 
         </div>

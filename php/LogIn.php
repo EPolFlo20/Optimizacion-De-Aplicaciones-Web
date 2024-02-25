@@ -53,3 +53,4 @@ if (isset($_GET['login'])) {
         echo json_encode($response);
     }
 }
+?>
