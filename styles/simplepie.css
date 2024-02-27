@@ -1,0 +1,20 @@
+a {
+    color:#326EA1;
+    text-decoration:underline;
+    padding:0 1px;
+}
+
+a:hover {
+    background-color:#333;
+    color:#fff;
+    text-decoration:none;
+}
+
+div.header {
+    border-bottom:1px solid #999;
+}
+
+div.item {
+    padding:5px 0;
+    border-bottom:1px solid #999;
+}
