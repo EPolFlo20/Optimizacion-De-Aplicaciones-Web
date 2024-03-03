@@ -25,7 +25,7 @@ function cargarFeeds() {
 }
 
 function MostrarNoticias(datos) {
-    document.getElementById("noticias").innerHTML = "";
+    document.getElementById("div_noticias").innerHTML = "";
     var datosObjeto = datos;
     cadena = "";
     for (var i = 0; i < datosObjeto.length; i++) {
@@ -45,7 +45,7 @@ function MostrarNoticias(datos) {
         cadena += " </tr></table><br>";
     }
 
-    document.getElementById("noticias").innerHTML = cadena;
+    document.getElementById("div_noticias").innerHTML = cadena;
 }
 
 function listCat(categorias) {

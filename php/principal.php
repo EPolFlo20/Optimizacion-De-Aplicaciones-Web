@@ -67,10 +67,7 @@ if (empty($_SESSION["id_usuario"])) {
             </table>
             <a href="../php/logout.php" id="btnSalir" name="">Salir</a>
         </div>
-        <div id="div_noticias" class="container-fluid">
-
-
-        </div>
+        <div id="div_noticias" class="container-fluid"></div>
         <!-- Formulario para agregar Feeds (oculto inicialmente) -->
         <div id="agregarFeed">
             <h2>Agrega un nuevo Feed</h2>
