@@ -47,7 +47,7 @@ if (empty($_SESSION["id_usuario"])) {
                     </td>
                     <td>
                         <div class="contenedor">
-                            <button onclick="mostrarLista()">Mostrar Lista</button>
+                            <button onclick="mostrarLista()">Ordenar</button>
                             <div id="listaDesplegable" class="listaDesplegable">
                                 <button onclick="ordenarTitulo()">Titulo</button>
                                 <button onclick="ordenarFecha()">Fecha</button>
