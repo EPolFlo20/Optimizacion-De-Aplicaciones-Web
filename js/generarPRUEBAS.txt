@@ -1,0 +1,23 @@
+function MostrarNoticias(datos) {
+    document.getElementById("noticias").innerHTML = "";
+    var datosObjeto = datos;
+    cadena = "";
+    for (var i = 0; i < datosObjeto.length; i++) {
+        cadena += "<table border><tr>";
+        var entrada = datosObjeto[i];
+        cadena += "<td colspan=\"2\" class=\"titulo\">" + entrada.titulo + "</td>";
+        cadena += "<td></td>";
+        cadena += "<td colspan=\"2\" class=\"fecha\">" + entrada.fecha + "</td>";
+        cadena += "</tr><tr>";
+        cadena += "<td colspan=\"2\" rowspan=\"3\" class=\"imagen\"><img src=\"" + entrada.img + "\" width=\"100%\" heigth=\"100%\" alt=\"Imagen del suceso\"</td>";
+        cadena += "<td colspan=\"2\" rowspan=\"3\" class=\"descripcion\">" + entrada.descripcion + "</td>";
+        cadena += "<td rowspan=\"3\" class=\"url\" class=\"categorias\"><ul> "
+            + listCat(entrada.categorias)
+            + "</td>";
+        cadena += "</tr><tr></tr><tr></tr><tr>";
+        cadena += "<td colspan=\"5\" class=\"url\">" + entrada.url + "<ul>";
+        cadena += " </tr></table><br>";
+    }
+
+    document.getElementById("noticias").innerHTML = cadena;
+}

@@ -3,7 +3,6 @@ session_start();
 if (empty($_SESSION["id_usuario"])) {
     header("location: ../html/Login.html");
 }
-require_once 'RSSLector.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -15,6 +14,7 @@ require_once 'RSSLector.php';
     <link rel="stylesheet" href="../styles/simplepie.css">
     <link rel="stylesheet" href="../styles/index.css">
     <script src="../js/index.js"></script>
+    <script src="../js/generateNews.js"></script>
 </head>
 
 <body>
@@ -46,10 +46,17 @@ require_once 'RSSLector.php';
                         <input id="buscador" type="text">
                     </td>
                     <td>
-                        <input id="ordenar" type="button" value="Ordenar">
+                        <div class="contenedor">
+                            <button onclick="mostrarLista()">Mostrar Lista</button>
+                            <div id="listaDesplegable" class="listaDesplegable">
+                                <button onclick="ordenarTitulo()">Titulo</button>
+                                <button onclick="ordenarFecha()">Fecha</button>
+                                <button>Algo más?</button>
+                            </div>
+                        </div>
                     </td>
                     <td>
-                        <input id="actualizar" type="button" value="Actualizar">
+                        <button onclick="update()">Actualizar</button>
                     </td>
                 </tr>
                 <tr>
@@ -60,10 +67,9 @@ require_once 'RSSLector.php';
             </table>
             <a href="../php/logout.php" id="btnSalir" name="">Salir</a>
         </div>
-        <div id="noticias" class="container-fluid">
-            <?php
-            readFromDB();
-            ?>
+        <div id="div_noticias" class="container-fluid">
+
+
         </div>
         <!-- Formulario para agregar Feeds (oculto inicialmente) -->
         <div id="agregarFeed">
