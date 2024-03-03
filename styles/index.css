@@ -17,6 +17,27 @@ body {
     padding-bottom: 40px;
 }
 
+.contenedor {
+    position: relative;
+}
+
+.listaDesplegable {
+    position: absolute;
+    top: 100%;
+    /* Posiciona la lista justo debajo del botón */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    /* Inicialmente oculta la lista desplegable */
+}
+
+.listaDesplegable.visible {
+    display: block;
+}
+
 .container,
 .container-fluid,
 .container-xxl,
