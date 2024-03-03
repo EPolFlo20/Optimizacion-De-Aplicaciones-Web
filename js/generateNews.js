@@ -29,7 +29,7 @@ function MostrarNoticias(datos) {
     var datosObjeto = datos;
     cadena = "";
     for (var i = 0; i < datosObjeto.length; i++) {
-        cadena += "<table class=\"tabla_noticias\" border><tr>";
+        cadena += "<table class=\"tabla_noticias\"><tr>";
         var entrada = datosObjeto[i];
         cadena += "<td colspan=\"2\" class=\"titulo\">" + entrada.titulo + "</td>";
         cadena += "<td></td>";
@@ -41,7 +41,9 @@ function MostrarNoticias(datos) {
             + listCat(entrada.categorias)
             + "</td>";
         cadena += "</tr><tr></tr><tr></tr><tr>";
-        cadena += "<td colspan=\"5\" class=\"url\">" + entrada.url + "<ul>";
+        cadena += "<td colspan=\"5\" class=\"url\"><a href=\""
+            + entrada.url
+            + "\">Referencia</a><ul>";
         cadena += " </tr></table><br>";
     }
 

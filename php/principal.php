@@ -21,7 +21,7 @@ if (empty($_SESSION["id_usuario"])) {
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12">
-                <h1 class="titulo">Noticias RSS.</h1>
+                <h1 class="tituloSitio">Noticias RSS.</h1>
             </div>
             <div class="col-12">
                 <ul class="nav nav-tabs">
