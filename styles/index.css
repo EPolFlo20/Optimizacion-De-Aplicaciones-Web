@@ -1,5 +1,6 @@
 body {
     background-color: cadetblue;
+    width: 97%;
     margin: 0;
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
@@ -10,11 +11,76 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.titulo {
+.tabla_noticias{
+    width: 100%;
+    background-color: rgba(29, 71, 71, 0.89);
+    border-radius: 20px;
+    border: 1;
+}
+
+.tituloSitio {
+    width: 100%;
     font-family: arial black;
     text-align: center;
+    padding: 40px;
+}
+
+.titulo {
+    width: 40%;
+    font-family: arial black;
     color: white;
-    padding-bottom: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.fecha {
+    width: 40%;
+    text-align: right;
+    padding: 10px;
+}
+
+.imagen {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+}
+
+.descripcion {
+    width: 40%;
+    padding: 10px;
+}
+
+.categorias {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.url {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.listaDesplegable {
+    position: absolute;
+    top: 100%;
+    /* Posiciona la lista justo debajo del botón */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    /* Inicialmente oculta la lista desplegable */
+}
+
+.listaDesplegable.visible {
+    display: block;
 }
 
 .container,
@@ -24,7 +90,7 @@ body {
 .container-lg,
 .container-md,
 .container-sm {
-    width: 100%;
+    width: 97%;
     padding-right: var(--bs-gutter-x, 0.75rem);
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
