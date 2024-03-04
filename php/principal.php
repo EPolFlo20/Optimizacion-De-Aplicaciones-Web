@@ -3,7 +3,6 @@ session_start();
 if (empty($_SESSION["id_usuario"])) {
     header("location: ../html/Login.html");
 }
-require_once 'RSSLector.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -15,25 +14,35 @@ require_once 'RSSLector.php';
     <link rel="stylesheet" href="../styles/simplepie.css">
     <link rel="stylesheet" href="../styles/index.css">
     <script src="../js/index.js"></script>
+    <script src="../js/generateNews.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12">
-                <h1 class="titulo">Noticias RSS.</h1>
+                <h1 class="tituloSitio">Lector RSS</h1>
             </div>
             <div class="col-12">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="principal.php">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="principal.php">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <!-- Botón para mostrar el formulario para agregar Feeds -->
                         <a class="nav-link" href="#" onclick="mostrarForms()">Agregar nuevo Feed</a>
+                        <!-- Formulario para agregar Feeds (oculto inicialmente) -->
+                        <div id="agregarFeed">
+                            <h2>Agrega un nuevo Feed</h2>
+                            <form id="FormFeed">
+                                <input id="input_link" type="text" name="feed" placeholder="Link" required>
+                                <button id= "btn_agregar" type="submit" id="feed_button">Agregar</button>
+                                <button id="btn_cancelar" onclick="ocultarConfirmacion()">Cancelar</button>
+                            </form>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="">Opción 3</a>
+                        <a class="nav-link" href="../php/logout.php" id="btnSalir" name="">Salir</a>
                     </li>
                 </ul>
             </div>
@@ -42,14 +51,20 @@ require_once 'RSSLector.php';
             <table>
                 <tr>
                     <td>
-                        Buscador:
+                        <span id="buscador_text" >Buscador:</span>
                         <input id="buscador" type="text">
                     </td>
                     <td>
-                        <input id="ordenar" type="button" value="Ordenar">
+                        <div class="contenedor">
+                            <button id= "btn_ordenar" onclick="mostrarLista()">Ordenar</button>
+                            <div id="listaDesplegable" class="listaDesplegable">
+                                <button id="btn_titulo" onclick="ordenarTitulo()">Titulo</button>
+                                <button id="btn_fecha" onclick="ordenarFecha()">Fecha</button>
+                            </div>
+                        </div>
                     </td>
                     <td>
-                        <input id="actualizar" type="button" value="Actualizar">
+                        <button id="btn_actualizar" onclick="update()">Actualizar</button>
                     </td>
                 </tr>
                 <tr>
@@ -58,24 +73,9 @@ require_once 'RSSLector.php';
                     </td>
                 </tr>
             </table>
-            <a href="../php/logout.php" id="btnSalir" name="">Salir</a>
         </div>
-        <div id="noticias" class="container-fluid">
-            <?php
-            readFromDB();
-            ?>
-        </div>
-        <!-- Formulario para agregar Feeds (oculto inicialmente) -->
-        <div id="agregarFeed">
-            <h2>Agrega un nuevo Feed</h2>
-            <p>Escribe el link al Feed Rss</p>
-            <form id="FormFeed">
-                <input type="text" name="feed" placeholder="Usuario" required>
-                <button onclick="ocultarConfirmacion()">Cancelar</button>
-                <button type="submit" id="feed_button">Agregar Feed</button>
-            </form>
-
-        </div>
+        <div id="div_noticias" class="container-fluid"></div>
+        
 </body>
 
 </html>

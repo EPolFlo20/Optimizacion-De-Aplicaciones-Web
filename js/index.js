@@ -8,7 +8,13 @@ function ocultarConfirmacion() {
     document.getElementById("agregarFeed").style.display = "none";
 }
 
+function mostrarLista() {
+    var listaDesplegable = document.getElementById("listaDesplegable");
+    listaDesplegable.classList.toggle("visible");
+}
+
 window.onload = () => {
+
     // Función para realizar la acción después de confirmar
     document.getElementById("FormFeed").addEventListener("submit", function (event) {
         // Prevenir el comportamiento predeterminado del formulario (enviar los datos y recargar la página)

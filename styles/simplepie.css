@@ -1,12 +1,11 @@
 a {
-    color:#326EA1;
-    text-decoration:underline;
+    color:#000;
+    text-decoration:none;
     padding:0 1px;
 }
 
 a:hover {
-    background-color:#333;
-    color:#fff;
+    color:#000;
     text-decoration:none;
 }
 

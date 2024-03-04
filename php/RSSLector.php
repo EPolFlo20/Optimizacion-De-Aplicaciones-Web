@@ -1,9 +1,9 @@
 <?php
-if (empty($_SESSION["id_usuario"])) {
-    header("location: ../html/Login.html");
-}
+session_start();
 
-function readFromDB()
+readFeedsFromDB();
+
+function readFeedsFromDB()
 {
     require 'databaseConnection.php';
     $id_usuario = $_SESSION["id_usuario"];
@@ -19,37 +19,61 @@ function readFromDB()
         $stmt->execute();
         $feeds = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if (!empty($feeds)) {
-            foreach($feeds as $urlFeed){
-                $url = $urlFeed['url_sitio'];
-                readRSS($url);
-            }
+            generateFeedsArray($feeds);
         } else {
-            echo "<p>No se encontraron feeds para este usuario.</p>";
+            $mensaje_error = '<p>No se encontraron feeds para este usuario.</p>';
+            echo json_encode(array('error' => $mensaje_error));
         }
     } catch (PDOException $e) {
-        echo "Error de consulta: " . $e->getMessage();
+        $mensaje_error = 'Error de consulta: ' . $e->getMessage();
+        echo json_encode(array('error' => $mensaje_error));
     }
 }
 
-function readRSS($link)
+function generateFeedsArray($feeds)
 {
     require_once 'autoloader.php';
 
-    $rss_feed_url = $link;
+    $datos_feed = array();
 
-    // Crear una nueva instancia de SimplePie
-    $feed = new SimplePie();
-    $feed->set_feed_url($rss_feed_url);
-    $feed->init();
-    $feed->handle_content_type();
+    // Procesar cada URL del feed
+    foreach ($feeds as $urlFeed) {
+        $url = $urlFeed['url_sitio'];
 
-    // Muestra las noticias
-    echo '<div class="item">';
-    foreach ($feed->get_items() as $item) {
-        echo '<h2><a href="' . $item->get_permalink() . '">' . $item->get_title() . '</a></h2>';
-        echo '<p>' . $item->get_description() . '</p>';
-        echo '<p><small>Posted on' . $item->get_date('j F Y | g:i a') . '</small></p>';
+        // Crear una nueva instancia de SimplePie
+        $feed = new SimplePie();
+        $feed->set_feed_url($url);
+        $feed->init();
+        $feed->handle_content_type();
+
+        foreach ($feed->get_items() as $item) {
+            $descripcion = $item->get_description();
+            $enlace_imagen = '';
+            // Extraer el enlace de la imagen (si existe)
+            preg_match('/<img[^>]+src="([^"]+)"/', $descripcion, $matches);
+            if (!empty($matches[1])) {
+                $enlace_imagen = $matches[1];
+                // Eliminar la etiqueta <img> de la descripción
+                $descripcion = preg_replace('/<img[^>]+>/', '', $descripcion);
+            }
+
+            // Extraer datos relevantes de cada entrada del feed
+            $entrada = array(
+                'titulo' => $item->get_title(),
+                'fecha' => $item->get_date('j F Y | g:i a'),
+                'descripcion' => $descripcion,
+                'img' => $enlace_imagen,
+                'categorias' => $item->get_categories(),
+                'url' => $item->get_permalink()
+            );
+
+            // Agregar la entrada al array de datos del feed
+            $datos_feed[] = $entrada;
+        }
     }
-    echo '</div>';
+
+    // Convertir el array de datos del feed a JSON
+    $datos_feed_json = json_encode($datos_feed);
+
+    echo $datos_feed_json;
 }
-?>
