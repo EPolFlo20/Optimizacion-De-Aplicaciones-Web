@@ -76,14 +76,18 @@ function ordenarTitulo() {
 }
 
 function ordenarFecha() {
-    datos_Feeds.sort(function (a, b) {
-        var cadena1 = a.fecha.toLowerCase(), cadena2 = b.fecha.toLowerCase();
-        if (cadena1 < cadena2)
-            return -1;
-        if (cadena1 > cadena2)
-            return 1;
-        return 0;
-    });
+    if (Array.isArray(datos_Feeds)) {
+        datos_Feeds.sort(function (a, b) {
+            var cadena1 = a.fecha.toLowerCase(), cadena2 = b.fecha.toLowerCase();
+            if (cadena1 < cadena2)
+                return -1;
+            if (cadena1 > cadena2)
+                return 1;
+            return 0;
+        });
+    } else {
+        console.error('datos_Feeds no es un array');
+    }
     MostrarNoticias(datos_Feeds);
 }
 
