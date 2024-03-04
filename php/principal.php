@@ -42,8 +42,8 @@ if (empty($_SESSION["id_usuario"])) {
             <table>
                 <tr>
                     <td>
-                        Buscador:
-                        <input id="buscador" type="text">
+                        <label for="buscador">Buscador</label>
+                        <input type="search" id="buscador" data-search>
                     </td>
                     <td>
                         <div class="contenedor">
@@ -79,6 +79,7 @@ if (empty($_SESSION["id_usuario"])) {
             </form>
 
         </div>
+        <script src="../js/search.js"></script>
 </body>
 
 </html>
