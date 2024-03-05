@@ -188,6 +188,8 @@ body {
     border-color: #2E8CB8;
     background-color: #2E8CB8;
     isolation: isolate;
+    color: #fff;
+
 }
 
 .nav-tabs .nav-link.active,
