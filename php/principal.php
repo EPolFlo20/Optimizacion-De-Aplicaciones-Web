@@ -20,7 +20,7 @@ if (empty($_SESSION["id_usuario"])) {
 <body>
     <div class="container-fluid">
         <div class="row mt-5">
-            <div class="col-12">
+            <div id="titulo" class="col-12">
                 <h1 class="tituloSitio">Lector RSS</h1>
             </div>
             <div class="col-12">
@@ -51,8 +51,8 @@ if (empty($_SESSION["id_usuario"])) {
             <table>
                 <tr>
                     <td>
-                        <span id="buscador_text" >Buscador:</span>
-                        <input id="buscador" type="text">
+                        <label for="buscador">Buscador</label>
+                        <input type="search" id="buscador" data-search>
                     </td>
                     <td>
                         <div class="contenedor">
@@ -75,7 +75,7 @@ if (empty($_SESSION["id_usuario"])) {
             </table>
         </div>
         <div id="div_noticias" class="container-fluid"></div>
-        
+        <script src="../js/search.js"></script>
 </body>
 
 </html>

@@ -23,11 +23,23 @@ body {
     border: 1;
 }
 
+#titulo{
+    background-color: #fff;
+    width: 97%;
+    margin: auto;
+    border-radius: 20px;
+    height: 10%;
+    margin-bottom: 30px;
+
+}
+
 .tituloSitio {
     width: 100%;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    padding: 40px;
+    padding: 40px; 
+    margin-left: -30px; 
+    letter-spacing: 5px;
 }
 
 .titulo {
