@@ -39,7 +39,7 @@ function generateFeedsArray($feeds)
     // Procesar cada URL del feed
     foreach ($feeds as $urlFeed) {
         $url = $urlFeed['url_sitio'];
-
+        
         // Crear una nueva instancia de SimplePie
         $feed = new SimplePie();
         $feed->set_feed_url($url);
