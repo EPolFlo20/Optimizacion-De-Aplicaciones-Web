@@ -51,6 +51,7 @@ if (empty($_SESSION["id_usuario"])) {
     </div>
     <div id="div_noticias" ></div>
     <div id="no-results"></div>
+
     <script src="../js/busqueda.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/generarNoticias.js"></script>

@@ -4,13 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     searchInput.addEventListener("input", e => {
         const searchTerm = e.target.value.toLowerCase();
-        const newsItems = newsContainer.getElementsByClassName("tabla_noticias");
+        const newsItems = newsContainer.getElementsByClassName("noticia");
 
         Array.from(newsItems).forEach(item => {
-            const title = item.querySelector(".titulo").textContent.toLowerCase();
+            const title = item.querySelector(".titulo a").textContent.toLowerCase(); // Actualiza el selector aquí
             if (title.includes(searchTerm)) {
-                console.log(item.value)
-                item.style.display = "block";
+                item.style.display = "flex"; // Cambia "block" a "flex" si tu contenedor de noticias está utilizando display: flex
             } else {
                 item.style.display = "none";
             }

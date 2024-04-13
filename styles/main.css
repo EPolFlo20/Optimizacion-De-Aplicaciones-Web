@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #38A6D6;
+    width: 100%;
+    height: 5rem;
+}
+
+.header #tituloSitio{
+    color: #fff;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    letter-spacing: .3rem;
+    margin-left: 18px;
+}
+
+.headerButtons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.tabla_noticias{
+    background-color: #38A6D6;
+    width: 100%;
+    border-radius: 20px;
+    border: 1;
+}
+
+.nav-link {
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    border-color: #38A6D6;
+    background-color: #fff;
+    margin-left: 15px;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    font-family: "Poppins", sans-serif;
+    color: #38A6D6;
+}
+
+#agregarFeed {
+    display: none;
+    /* Inicialmente oculto */
+    position: absolute;
+    margin-top: 190px;
+    margin-right: 80px;
+    background-color: #38A6D6;
+    padding: 20px;
+    z-index: 9999;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-family: "Poppins", sans-serif;    
+}
+
+#btn_cancelar {
+    padding: 5px;
+    background-color: #fff;
+    color: #38A6D6;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    width: 95px;
+    margin-left: 10px;
+}
+
+#btn_cancelar:hover {
+    cursor: pointer;
+}
+
+#btn_agregar {
+    padding: 5px;
+    background-color: #fff;
+    color: #38A6D6;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    width: 95px;
+}
+
+#btn_agregar:hover {
+    cursor: pointer;
+
+}
+
+#input_link{
+    width: 100%;
+    padding: 5px;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#input_link:focus{
+    outline: none; 
+    
+}
+
+.noticias{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;    
+}
+
+.barraBusqueda label{
+    color:#38A6D6;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    
+}
+
+#buscador{
+    width: 30vw;
+    padding: 5px;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 15px;
+    background-color: #38A6D6;
+    color: #fff;
+}
+
+#buscador:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#btn_ordenar{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #38A6D6;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    width: 95px;
+}
+
+#btn_actualizar{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #38A6D6;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    width: 130px;
+    height: 33px;
+
+}
+
+#btn_ordenar:hover{
+    background-color: #2E8CB8;
+    cursor: pointer;
+
+}
+
+#btn_actualizar:hover{
+    background-color: #2E8CB8;
+    cursor: pointer;
+
+}
+
+.listaDesplegable {
+    width: 95px;
+    position: absolute;
+    /* Posiciona la lista justo debajo del botón */
+    background-color: #38A6D6;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    border-radius: 0.25rem;
+    margin-top: 32px;
+    margin-left: 10px;
+    /* Inicialmente oculta la lista desplegable */
+}
+
+.listaDesplegable.visible {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#btn_titulo{
+    padding: 5px;
+    background-color: #fff;
+    color: #38A6D6;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    width: 85px;
+    margin-bottom: 5px;
+}
+
+#btn_titulo:hover{
+    cursor: pointer;
+
+}
+
+#btn_fecha{
+    padding: 5px;
+    background-color: #fff;
+    color: #38A6D6;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    width: 85px;
+}
+
+#btn_fecha:hover{
+    cursor: pointer;
+}
+
+#div_noticias{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.noticia{
+    background-color: #e5e5e5;    
+    width: 30%;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    align-items: start; /* Agrega esta línea */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo_fecha {
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.titulo a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.fecha {
+    width: 100%;
+    text-align: center;
+}
+
+.imagen {
+    width: 100%;
+    align-self: center;
+    display: flex; /* Agrega esta línea */
+    justify-content: center; /* Agrega esta línea */
+    align-items: center; /* Agrega esta línea */
+    padding: 20px;
+}
+
+.imagen img{
+    max-width: 80%;
+    margin: auto;
+}
+
+.descripcion {
+    width: 85%;
+    padding: 10px;
+    text-align: justify;
+    margin: auto;
+
+}
+
+.descripcion a{
+    color: #000;
+    text-decoration: none;
+}
+
+.categorias {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#no-results {
+    color: #38A6D6;
+    text-align: center;
+    justify-content: center;
+    width: 100%; 
+    display: none;
+    margin: auto;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #38A6D6;
+}
+
+#no-results img{
+    width: 50%;
+    margin: auto;
+}
+
+#no-results p{
+    font-size: 40px;
+}
