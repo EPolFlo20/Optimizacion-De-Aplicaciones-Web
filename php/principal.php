@@ -12,12 +12,13 @@ if (empty($_SESSION["id_usuario"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        @import url("../styles/main.css");
+        @import url("../styles/main2.css");
     </style>
 </head>
 
 <body>
     <div  class="header">
+        <img src="../img/RSS.png" alt="Logo" id="logo">
         <h1 id="tituloSitio">Lector RSS</h1>
         <div class="headerButtons">
             <!-- Botón para mostrar el formulario para agregar Feeds -->

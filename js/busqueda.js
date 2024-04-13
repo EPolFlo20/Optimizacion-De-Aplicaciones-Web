@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             noResultsMessage.innerHTML = `
             <img src="../img/no_results.png" alt="No se encontraron resultados">
-            <h1>No se encontraron resultados</h1>
+            <p>No se encontraron resultados</p>
             `;
             noResultsMessage.style.display = "flex";
         }
