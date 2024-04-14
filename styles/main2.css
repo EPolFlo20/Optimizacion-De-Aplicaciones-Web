@@ -54,7 +54,7 @@
 }
 
 .nav-link {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     background: none;
     border: 1px solid transparent;
     border-radius: 0.25rem;
@@ -62,11 +62,16 @@
     background-color: #fff;
     margin-left: 15px;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 5px;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
     font-family: "Poppins", sans-serif;
     color: #38A6D6;
+    height: 50px;
+}
+
+.nav-link img {
+    height: 100%;
 }
 
 #agregarFeed {
@@ -134,11 +139,19 @@
     font-family: "Poppins", sans-serif;    
 }
 
+.barraBusqueda {
+    height: 33px;
+}
+
 .barraBusqueda label{
     color:#38A6D6;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    
+    height: 33px;
+}
+
+.barraBusqueda img {
+    height: 100%;
 }
 
 #buscador{
@@ -149,6 +162,7 @@
     font-size: 15px;
     background-color: #38A6D6;
     color: #fff;
+    float: inline-end;
 }
 
 #buscador:focus{
@@ -163,27 +177,33 @@
 }
 
 #btn_ordenar{
-    padding: 5px;
+    padding: 0;
     margin-left: 10px;
     background-color: #38A6D6;
     color: white;
     border: none;
     border-radius: 0.25rem;
     font-size: 15px;
-    width: 95px;
+    height: 33px;
+}
+
+#btn_ordenar img{
+    height: 100%;
 }
 
 #btn_actualizar{
-    padding: 5px;
+    padding: 0;
     margin-left: 10px;
     background-color: #38A6D6;
     color: white;
     border: none;
     border-radius: 0.25rem;
     font-size: 15px;
-    width: 130px;
     height: 33px;
+}
 
+#btn_actualizar img{
+    height: 100%;
 }
 
 #btn_ordenar:hover{

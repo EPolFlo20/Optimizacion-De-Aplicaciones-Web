@@ -26,6 +26,7 @@ function cargarFeeds() {
 
 function MostrarNoticias(datos) {
     const noticiasDiv = document.getElementById("div_noticias");
+    var rutaImgPredeterminada = "../img/predeterminada.jpg";
     noticiasDiv.innerHTML = "";
 
     const noticiasHTML = datos.map(entrada => `
@@ -35,7 +36,7 @@ function MostrarNoticias(datos) {
                 <div class="fecha">${entrada.fecha}</div>
             </div>
             <div class="contenido">
-                <div class="imagen"><img src="${entrada.img}" alt="Imagen del suceso"></div>
+                <div class="imagen"><img src="${entrada.img !== "" ? entrada.img : rutaImgPredeterminada}" alt="Imagen del suceso"></div>
                 <div class="descripcion">${entrada.descripcion}</div>
                 <div class="categorias">
                     Categoría: ${listCat(entrada.categorias)}
