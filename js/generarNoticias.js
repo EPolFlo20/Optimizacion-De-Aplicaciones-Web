@@ -1,89 +1,17 @@
-var datos_Feeds;
-
-function update() {
-    datos_Feeds = null;
-    cargarFeeds();
-}
-
-function cargarFeeds() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', '../php/RSSLector.php', true);
-    xhr.onload = function () {
-        if (xhr.status >= 200 && xhr.status < 300) {
-            datos_Feeds = JSON.parse(xhr.responseText);
-            console.log('Datos recibidos:', datos_Feeds);
-            ordenarFecha();
-            MostrarNoticias(datos_Feeds);
-        } else {
-            console.error('Error al cargar las noticias:', xhr.statusText);
-        }
-    };
-    xhr.onerror = function () {
-        console.error('Error al realizar la solicitud.');
-    };
-    xhr.send();
-}
-
-function MostrarNoticias(datos) {
-    const noticiasDiv = document.getElementById("div_noticias");
-    var rutaImgPredeterminada = "../img/predeterminada.avif";
-    noticiasDiv.innerHTML = "";
-
-    const noticiasHTML = datos.map(entrada => `
+var datos_Feeds;function update(){datos_Feeds=null;cargarFeeds()}function cargarFeeds(){var a=new XMLHttpRequest;a.open("GET","../php/RSSLector.php",!0);a.onload=function(){200<=a.status&&300>a.status?(datos_Feeds=JSON.parse(a.responseText),console.log("Datos recibidos:",datos_Feeds),ordenarFecha(),MostrarNoticias(datos_Feeds)):console.error("Error al cargar las noticias:",a.statusText)};a.onerror=function(){console.error("Error al realizar la solicitud.")};a.send()}
+function MostrarNoticias(a){const b=document.getElementById("div_noticias");b.innerHTML="";a=a.map(c=>`
         <div class="noticia">
             <div class="titulo_fecha">
-                <div class="titulo"><a href="${entrada.url}">${entrada.titulo}</a></div>
-                <div class="fecha">${entrada.fecha}</div>
+                <div class="titulo"><a href="${c.url}">${c.titulo}</a></div>
+                <div class="fecha">${c.fecha}</div>
             </div>
             <div class="contenido">
-                <div class="imagen"><img src="${entrada.img !== "" ? entrada.img : rutaImgPredeterminada}" alt="Imagen del suceso"></div>
-                <div class="descripcion">${entrada.descripcion}</div>
+                <div class="imagen"><img src="${""!==c.img?c.img:"../img/predeterminada.avif"}" alt="Imagen del suceso" style="width: auto; height: 200px;"></div>
+                <div class="descripcion">${c.descripcion}</div>
                 <div class="categorias">
-                    Categoría: ${listCat(entrada.categorias)}
+                    Categor\u00eda: ${listCat(c.categorias)}
                 </div>
             </div>
         </div>
-    `).join('');
-
-    noticiasDiv.innerHTML = noticiasHTML;
-}
-
-function listCat(categorias) {
-    if (!categorias) {
-        return "(Sin Categoria)";
-    }
-
-    return categorias.map(categoria => `${categoria.term}`).join(' | ');
-}
-
-function ordenarTitulo() {
-    datos_Feeds.sort(function (a, b) {
-        var cadena1 = a.titulo.toLowerCase(), cadena2 = b.titulo.toLowerCase();
-        if (cadena1 < cadena2)
-            return -1;
-        if (cadena1 > cadena2)
-            return 1;
-        return 0;
-    });
-    MostrarNoticias(datos_Feeds);
-}
-
-function ordenarFecha() {
-    if (Array.isArray(datos_Feeds)) {
-        datos_Feeds.sort(function (a, b) {
-            var cadena1 = a.fecha.toLowerCase(), cadena2 = b.fecha.toLowerCase();
-            if (cadena1 < cadena2)
-                return -1;
-            if (cadena1 > cadena2)
-                return 1;
-            return 0;
-        });
-    } else {
-        console.error('datos_Feeds no es un array');
-    }
-    MostrarNoticias(datos_Feeds);
-}
-
-window.onload = function () {
-    cargarFeeds();
-}
+    `).join("");b.innerHTML=a}function listCat(a){return a?a.map(b=>`${b.term}`).join(" | "):"(Sin Categoria)"}function ordenarTitulo(){datos_Feeds.sort(function(a,b){a=a.titulo.toLowerCase();b=b.titulo.toLowerCase();return a<b?-1:a>b?1:0});MostrarNoticias(datos_Feeds)}function ordenarFecha(){Array.isArray(datos_Feeds)?datos_Feeds.sort(function(a,b){a=a.fecha.toLowerCase();b=b.fecha.toLowerCase();return a<b?-1:a>b?1:0}):console.error("datos_Feeds no es un array");MostrarNoticias(datos_Feeds)}
+window.onload=function(){cargarFeeds()};

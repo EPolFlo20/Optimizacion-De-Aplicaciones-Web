@@ -1,27 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title> <style>
         @import url("../styles/SignUp.css");
-    </style>
-</head>
-<body>
-    <div class="form" id="myForm">
-        <form>
-            <h1 id="title">Registrarse</h1>
-            <input type="text" name="firstName" placeholder="Nombre" required>
-            <input type="text" name="lastName" placeholder="Apellido" required>
-            <input type="text" name="user" placeholder="Usuario" required>
-            <input type="password" name="password" placeholder="Contraseña" required>
-            <input type="email" name="email" placeholder="Correo" required>
-            <button type="submit" id="signUp_button">Registrarse</button>
-            <button id="logIn_form"><a href="LogIn.html">Iniciar sesión</a></button>
-        </form>
-    </div>
-    <script type="module">
+    </style> </head> <body> <div class="form" id="myForm"> <form> <h1 id="title">Registrarse</h1> <input type="text" name="firstName" placeholder="Nombre" required> <input type="text" name="lastName" placeholder="Apellido" required> <input type="text" name="user" placeholder="Usuario" required> <input type="password" name="password" placeholder="Contraseña" required> <input type="email" name="email" placeholder="Correo" required> <button type="submit" id="signUp_button">Registrarse</button> <button id="logIn_form"><a href="LogIn.html">Iniciar sesión</a></button> </form> </div> <script type="module">
         document.getElementById('myForm').addEventListener('submit', function(event) {
             event.preventDefault();
             registrarUsuario();
@@ -59,6 +38,4 @@
                 });
         }
             
-    </script>
-</body>
-</html>
+    </script> </body> </html>
