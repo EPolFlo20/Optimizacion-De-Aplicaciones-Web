@@ -18,12 +18,12 @@ if (empty($_SESSION["id_usuario"])) {
 
 <body>
     <div class="header">
-        <img src="../img/RSS.avif" alt="Logo" id="logo">
+        <div class='sprite RSS'></div>
         <h1 id="tituloSitio">Lector RSS</h1>
         <div class="headerButtons">
             <!-- Botón para mostrar el formulario para agregar Feeds -->
             <a class="nav-link" href="#" onclick="mostrarForms()">
-                <img src="../img/agregar.avif" alt="Agregar Feed">
+                <div class='sprite agregar'></div>
             </a>
             <!-- Formulario para agregar Feeds (oculto inicialmente) -->
             <div id="agregarFeed">
@@ -35,7 +35,7 @@ if (empty($_SESSION["id_usuario"])) {
                 </form>
             </div>
             <a class="nav-link" href="../php/logout.php" id="btnSalir" name="">
-                <img src="../img/salir.avif" alt="Salir">
+                <div class='sprite salir'></div>
             </a>
         </div>
     </div>
@@ -47,14 +47,14 @@ if (empty($_SESSION["id_usuario"])) {
         </div>
         <div class="botones">
             <button id="btn_ordenar" onclick="mostrarLista()">
-                <img src="../img/ordenar.avif" alt="Ordenar">
+                <div class='sprite ordenar'></div>
             </button>
             <div id="listaDesplegable" class="listaDesplegable">
                 <button id="btn_titulo" onclick="ordenarTitulo()">Titulo</button>
                 <button id="btn_fecha" onclick="ordenarFecha()">Fecha</button>
             </div>
             <button id="btn_actualizar" onclick="update()">
-                <img src="../img/actualizar.avif" alt="Actualizar Feed">
+                <div class='sprite actualizar'></div>
             </button>
         </div>
         <div class="feed"></div>

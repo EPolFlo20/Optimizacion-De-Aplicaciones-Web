@@ -373,3 +373,12 @@
 #no-results p{
     font-size: 40px;
 }
+
+.sprite { background: url('../img/sprites.avif') no-repeat top left; width: 33px; height: 33px;  } 
+.sprite.buscar { background-position: 0 0; position: absolute;} 
+.sprite.actualizar { background-position: -33px 0; } 
+.sprite.salir { background-position: -66px 0; width: 38px; height: 38px; } 
+.sprite.ordenar { background-position: -104px 0; width: 25px; } 
+.sprite.agregar { background-position: -129px 0; width: 39px; height: 39px; } 
+.sprite.RSS { background-position: -168px 0; width: 133px; height: 80px; } 
+.sprite.no_results { background-position: -301px 0; width: 398px; height: 398px; } 
