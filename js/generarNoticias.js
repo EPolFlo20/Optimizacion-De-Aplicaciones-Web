@@ -26,7 +26,7 @@ function cargarFeeds() {
 
 function MostrarNoticias(datos) {
     const noticiasDiv = document.getElementById("div_noticias");
-    var rutaImgPredeterminada = "../img/predeterminada.jpg";
+    var rutaImgPredeterminada = "../img/predeterminada.avif";
     noticiasDiv.innerHTML = "";
 
     const noticiasHTML = datos.map(entrada => `
